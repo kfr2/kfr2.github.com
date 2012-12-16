@@ -1,0 +1,16 @@
+Title: Hello World
+Date: 2012-12-04 20:35
+Tags: one, two
+Slug: hello-world
+Author: Kevin Richardson
+Summary: Introducing the new magically.us, now powered by Pelican.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros erat, vulputate ac vulputate ut, sollicitudin a neque. Fusce eros dui, aliquam ac interdum ut, ullamcorper id orci. Pellentesque in elit eget lectus molestie venenatis suscipit et tortor. Proin ut nunc lectus. Donec eu purus enim. Phasellus tellus magna, lacinia at vulputate vitae, porta et velit. Suspendisse varius varius tincidunt. Suspendisse lacinia rutrum pellentesque. Curabitur sit amet nibh id justo facilisis mollis. Suspendisse a metus sed dolor consectetur aliquet. Donec pretium tempus dui id ullamcorper. Fusce aliquam pellentesque elementum. Vivamus ut ultrices leo. Phasellus turpis tortor, euismod id bibendum vitae, laoreet a massa.
+
+Praesent id lectus mauris. Cras posuere faucibus turpis, quis condimentum eros gravida vel. Suspendisse in urna at libero ullamcorper dignissim. Integer adipiscing lectus ac felis sollicitudin eu sodales erat gravida. In mauris sem, sagittis eu ultricies fringilla, pretium sed lectus. Sed id lectus vitae lorem fermentum hendrerit. Donec sed enim elit. Mauris a purus eget orci pellentesque feugiat. Quisque condimentum consectetur ullamcorper. Nulla nisi sapien, auctor sit amet imperdiet ac, dignissim in nisl. Nam mauris sem, malesuada in pulvinar id, viverra et nisl. Donec commodo ultrices diam, sit amet pretium ligula fermentum non. Nunc in risus nibh, in sagittis libero. Integer tincidunt dapibus nibh, vel pellentesque augue vehicula quis. Pellentesque tempor orci quis lorem venenatis at sodales dolor elementum.
+
+Duis placerat nulla ac ligula dictum pharetra. Morbi lobortis orci elit. Nullam sit amet rhoncus est. Donec placerat, augue nec dictum adipiscing, metus tortor mattis odio, et venenatis felis orci ac quam. Aenean euismod elit sit amet libero aliquet eget hendrerit purus accumsan. Suspendisse sit amet diam erat. Fusce est nunc, tincidunt id blandit sit amet, adipiscing eu urna. Phasellus sed turpis quis dui iaculis varius sed non dolor. Integer placerat mollis nisl, ut mattis eros mollis ac. Donec a turpis sit amet leo cursus tempus id sit amet erat. Fusce nec massa eu erat rutrum porttitor sit amet ac lorem. Quisque ultrices odio vitae nisl interdum ut posuere felis tempor. Pellentesque pharetra laoreet purus, sit amet porttitor leo mollis ultricies. Donec felis enim, convallis nec elementum ut, mollis a leo.
+
+> Nullam turpis risus, sodales eget rhoncus at, volutpat ac sapien. Morbi imperdiet, risus ut egestas malesuada, magna odio elementum felis, eget tempus augue velit ut ante. Aenean quis lorem a enim blandit varius quis quis nibh. Nulla venenatis sapien at tellus dapibus gravida. Proin sodales mi luctus velit facilisis volutpat. Suspendisse et ipsum varius eros dictum faucibus. Morbi mauris odio, volutpat vitae sollicitudin et, vestibulum eget est.  
+>  
+> <a href="http://lipsum.com" class="href">lipsum</a>
