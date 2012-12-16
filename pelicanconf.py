@@ -34,6 +34,7 @@ DISPLAY_PAGES_ON_MENU = True
 FILES_TO_COPY = (
     ('extra/README', 'README'),
     ('extra/LICENSE', 'LICENSE'),
+    ('extra/CNAME', 'CNAME'),
     ('extra/humans.txt', 'humans.txt'),
     ('extra/favicon.ico', 'favicon.ico'),
 )
