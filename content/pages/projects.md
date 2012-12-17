@@ -1,7 +1,7 @@
-Title: projects
-Date: 2012-12-16 17:00
-Slug: projects
-Author: Kevin Richardson
-Summary:  This is a summary of the page.
+Title: projects  
+Date: 2012-12-16 17:00  
+Slug: projects  
+Author: Kevin Richardson  
+Summary:  A list of Kevin Richardson's projects.  
 
-Various projects (and links to whatever) can be listed.
+A more formal list of my projects is forthcoming.  In the meantime, you may be interested in browsing my [GitHub repositories](https://github.com/kfr2).
