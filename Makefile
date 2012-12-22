@@ -43,7 +43,7 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 github: publish
-	ghp-import $(OUTPUTDIR)
-	git push origin gh-pages
+	./ghp-import -m 'Update site at $(shell "date")' $(OUTPUTDIR)
+	#git push origin master
 
 .PHONY: html help clean regenerate serve devserver publish github
