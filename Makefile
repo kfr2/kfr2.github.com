@@ -44,6 +44,6 @@ publish:
 
 github: publish
 	./ghp-import -m 'Update site at $(shell "date")' $(OUTPUTDIR)
-	#git push origin master
+	git push origin master --force
 
 .PHONY: html help clean regenerate serve devserver publish github
