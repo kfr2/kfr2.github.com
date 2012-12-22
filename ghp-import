@@ -1,8 +1,17 @@
 #! /usr/bin/env python
 #
 # This file is part of the ghp-import package released under
-# the Tumbolia Public License. See the LICENSE file for more
-# information.
+# the Tumbolia Public License:
+# 
+# Copyright 2010, Paul Davis <paul.joseph.davis@gmail.com>
+#
+# Copying and distribution of this file, with or without modification, are
+# permitted in any medium without royalty provided the copyright notice and this
+# notice are preserved.
+#
+# TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+#
+# 0. opan saurce LOL
 
 import optparse as op
 import os
@@ -112,7 +121,7 @@ def run_import(srcdir, message):
 
 def options():
     return [
-        op.make_option('-m', dest='mesg', default='Update documentation',
+        op.make_option('-m', dest='mesg', default='Update site.',
             help='The commit message to use on the master branch.'),
         op.make_option('-p', dest='push', default=False, action='store_true',
             help='Push the branch to origin/master after committing.'),
