@@ -14,6 +14,6 @@ This site is powered by [Pelican](http://blog.getpelican.com/) -- a static websi
 If you desire your own personal site, I highly recommend a similar setup as the workflow for adding content to this site is quite easy if you are familiar with GitHub and Python.  If you're not (and desire to setup a similar website), fret not -- I will soon write a post describing how one can setup her own installation of Pelican with GitHub pages.
 
 ## Epilogue
-Thank you very much for perusing my small corner of the web.  If you already haven't, you may be interested in viewing [a list of my projects](/projects.html) or [my GitHub account](https://github.com/kfr2).  Furthermore, please feel free to contact me using the methods listed in [my humans.txt file](/humans.txt) as I would love to discuss Life, the Universe, and Everything with you.
+Thank you very much for perusing my small corner of the web.  If you already haven't, you may be interested in viewing [a list of my projects](/pages/projects.html) or [my GitHub account](https://github.com/kfr2).  Furthermore, please feel free to contact me using the methods listed in [my humans.txt file](/humans.txt) as I would love to discuss Life, the Universe, and Everything with you.
 
 *Pax et bonum: peace and good.*
