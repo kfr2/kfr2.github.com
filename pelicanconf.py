@@ -37,6 +37,7 @@ FILES_TO_COPY = (
     ('extra/CNAME', 'CNAME'),
     ('extra/humans.txt', 'humans.txt'),
     ('extra/favicon.ico', 'favicon.ico'),
+    ('extra/404.html', '404.html'),
 )
 
 # Plugins and their settings.
