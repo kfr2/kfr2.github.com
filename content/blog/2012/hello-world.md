@@ -1,7 +1,7 @@
 Title: Hello World  
 Date: 2013-01-01 19:55  
 Tags: meta, github, writing, python  
-Slug: hello-world  
+Slug: 2013-01-01/hello-world  
 Author: Kevin Richardson  
 Summary: Wherein the new magically.us, a personal website powered by Pelican, is introduced by its creator.  
 
