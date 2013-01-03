@@ -10,4 +10,4 @@ Interests:   games, data, plain text, simplicity, Python, R,
 ## Site
 Language:    English
 Doctype:     HTML5 with CSS3
-Tools:       OSX, Python, Pelican, GitHub,  Sublime Text 2, Mou, tea
+Tools:       OSX, Python, Pelican, GitHub, Sublime Text 2, Mou, tea
