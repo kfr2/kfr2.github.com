@@ -1,13 +1,13 @@
 # Kevin Richardson
-Email:       kevin [at] magically [dot] us
-Github:      https://github.com/kfr2
-Twitter:     @kfr_2
-Interests:   games, data, plain text, simplicity, Python, R,
-             beautiful software and code, web apps, exploring,
-             hacking, cute animals, tea, sandwiches,
-             Life, the Universe, and Everything
+Email:      kevin [at] magically [dot] us
+GitHub:     https://github.com/kfr2
+Twitter:    @kfr_2
+Interests:  games, data, analysis, plain text, simplicity, Python, R,
+            beautiful software and code, web apps, exploring, reading,
+            hacking, cute animals, tea, sandwiches, free software.
+            Life, the Universe, and Everything
 
 ## Site
-Language:    English
-Doctype:     HTML5 with CSS3
-Tools:       OSX, Python, Pelican, GitHub, Sublime Text 2, Mou, tea
+Language:   English
+Doctype:    HTML5 with CSS3
+Tools:      OSX, Python, Pelican, Git & GitHub, Sublime Text 2, Mou, tea
