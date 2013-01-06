@@ -491,3 +491,81 @@ section#posts {
 .gist table {
     border: none !important;
 }
+
+
+@media all and (max-width: 640px) {
+    section#sidebar {
+        position: relative;
+        min-height: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-bottom: #EEE 1px solid;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 20px 20px;
+
+            li {
+                display: inline;
+                a {
+                    line-height: 40px;
+                }
+            }
+        }
+
+        figure#user_logo { margin-left: auto; margin-right: auto; }
+        div.user_meta {
+            h1, h2 { margin: 0; padding: 0; }
+        }
+        footer { display: none; }
+    }
+
+
+    section#posts {
+        min-height: 0;
+        min-width: 0;
+        margin: 0;
+        border-left: none;
+        padding: 0;
+
+        header { display: none; }
+
+        article {
+            padding: 20px 20px;
+            min-width: 0;
+
+            h2#title { margin: 0; }
+            p { width: auto; }
+        }
+
+        dl ol {
+            li {
+                padding: 0 20px;
+                h2.title { margin: 0; }
+                abbr.published { visibility: visible; }
+            }
+
+            li {
+                margin-top: 20px;
+            }
+
+            div.entry-content {
+                width: 100%;
+                p { width: 100%; }
+            }
+        }
+
+        p.paginator {
+            min-height: 0;
+        }
+
+        footer {
+            a.button_accent {
+                margin: 0 0 10px 30px;
+            }
+        }
+    }
+}

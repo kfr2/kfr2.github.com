@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://magically.us/index.html</loc>
-<lastmod>2013-01-04T21:16:31-00:00</lastmod>
+<lastmod>2013-01-05T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/archives.html</loc>
-<lastmod>2013-01-04T21:16:31-00:00</lastmod>
+<lastmod>2013-01-05T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tags.html</loc>
-<lastmod>2013-01-04T21:16:31-00:00</lastmod>
+<lastmod>2013-01-05T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/categories.html</loc>
-<lastmod>2013-01-04T21:16:31-00:00</lastmod>
+<lastmod>2013-01-05T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -46,6 +46,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://magically.us/2013-01-01/copy.html</loc>
+<lastmod>2013-01-01T19:55:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://magically.us/2013-01-01/hello-world.html</loc>
 <lastmod>2013-01-01T19:55:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
@@ -54,42 +61,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://magically.us/category/2012.html</loc>
-<lastmod>2013-01-04T21:16:31-00:00</lastmod>
+<lastmod>2013-01-05T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/python.html</loc>
-<lastmod>2013-01-04T21:16:31-00:00</lastmod>
+<lastmod>2013-01-05T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/writing.html</loc>
-<lastmod>2013-01-04T21:16:31-00:00</lastmod>
+<lastmod>2013-01-05T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/meta.html</loc>
-<lastmod>2013-01-04T21:16:31-00:00</lastmod>
+<lastmod>2013-01-05T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/github.html</loc>
-<lastmod>2013-01-04T21:16:31-00:00</lastmod>
+<lastmod>2013-01-05T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/author/kevin-richardson.html</loc>
-<lastmod>2013-01-04T21:16:31-00:00</lastmod>
+<lastmod>2013-01-05T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
