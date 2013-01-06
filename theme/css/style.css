@@ -13,7 +13,7 @@ section#sidebar ul{margin:50px 0 0 0;padding:0 0 0 40px;}
 section#sidebar li{margin:0;padding:10px 0 20px;clear:both;display:block;float:none;}section#sidebar li a{color:#999999;font-size:14px;line-height:19px;border:2px solid #eeeeee;border-radius:35px;-moz-border-radius:35px;-webkit-border-radius:35px;padding:7px 15px;}
 section#sidebar li a:hover{color:#ffffff;background-color:#6f9fcf;border:none;outline:0;}
 section#sidebar footer{margin:0;padding:0 0 0 40px;position:absolute;bottom:45px;width:27%;text-align:center;color:#999999;font-size:12px;font-weight:300;line-height:15px;}
-section#posts{top:0;margin:0 0 0 27%;padding:0 0 75px 0;min-height:700px;min-width:710px;height:100%;border-left:#eeeeee 1px solid;background-color:rgba(255, 255, 255, 0.9);position:relative;z-index:1;}section#posts h1{margin:24px 0 16px;color:#000000;font-size:24px;line-height:32px;}
+section#posts{top:0;margin:0 0 0 27%;padding:0 0 75px 0;min-height:700px;min-width:710px;height:100%;border-left:#eeeeee 1px solid;background-color:#ffffff;position:relative;z-index:1;}section#posts h1{margin:24px 0 16px;color:#000000;font-size:24px;line-height:32px;}
 section#posts h2{margin:24px 0 14px;color:#000000;font-size:20px;line-height:26px;}
 section#posts h3{margin:22px 0 12px;color:#000000;font-size:18px;}
 section#posts h4{margin:20px 0 10px;color:#000000;}
