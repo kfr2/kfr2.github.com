@@ -24,7 +24,7 @@ LOGO_URL = 'http://www.gravatar.com/avatar/e6dddb3b7f19b71a97d604b9239dd86e.png'
 MENUITEMS = (
     ('notes', 'http://dl.dropbox.com/u/7030113/notes/index.htm'),
     ('archives', '/archives.html'),
-    ('atom feed', '/feeds/all.atom.xml'),
+    ('feed', '/feeds/all.atom.xml'),
     ('github', 'https://github.com/kfr2/'),
 )
 DISPLAY_PAGES_ON_MENU = True
