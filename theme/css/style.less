@@ -176,7 +176,7 @@ section#posts {
     margin: 0 0 0 27%;
     padding: 0 0 75px 0;
     min-height: 700px;
-    min-width: 710px;
+    max-width: 710px;
     height: 100%;
     border-left: @light-grey 1px solid;
     background-color: rgba(255,255,255,1.0);
@@ -229,7 +229,7 @@ section#posts {
         }
 
         pre {
-            width: 517px;
+            max-width: 517px;
         }
 
         /*li:before {*/
@@ -238,7 +238,7 @@ section#posts {
     }
 
     p {
-        width: 600px;
+        max-width: 600px;
     }
 
     blockquote {
@@ -248,7 +248,7 @@ section#posts {
         border-left: 10px solid @accent;
         max-width: 500px;
         p {
-            width: 530px;
+            max-width: 530px;
         }
     }
 
@@ -360,7 +360,7 @@ section#posts {
     article {
         margin: 0;
         padding: 40px 40px 40px 50px;
-        min-width: 620px;
+        max-width: 620px;
         position: relative;
         font-size: 18px;
         line-height: 25px;
@@ -429,7 +429,7 @@ section#posts {
             }
 
             .entry-content {
-                width: 550px;
+                max-width: 600px;
             }
 
             abbr {
@@ -493,7 +493,10 @@ section#posts {
 }
 
 
-@media all and (max-width: 640px) {
+@media
+all and (max-width: 640px),
+screen and (device-aspect-ratio: 2/3),
+screen and (device-aspect-ratio: 40/71) {
     section#sidebar {
         position: relative;
         min-height: 0;
@@ -554,18 +557,75 @@ section#posts {
 
             div.entry-content {
                 width: 100%;
+                margin-bottom: 1em;
                 p { width: 100%; }
             }
         }
 
         p.paginator {
-            min-height: 0;
+            border-top: none;
+            margin-top: 1em;
+            min-height: 50px;
+            &:after {
+                padding-left: 1em;
+                content: 'This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.';
+            }
         }
 
         footer {
             a.button_accent {
-                margin: 0 0 10px 30px;
+                margin: 10px 0 10px 30px;
             }
         }
+    }
+}
+
+@media
+screen and (device-aspect-ratio: 2/3),
+screen and (device-aspect-ratio: 40/71) {
+    html {
+        -webkit-text-size-adjust: 300%;
+        font-size: 300%;
+    }
+
+    section#sidebar {
+        li {
+            a {
+                font-size: 20px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    section#posts {
+        max-width: 100%;
+
+        article {
+            max-width: 100%;
+
+            ol, ul {
+                margin-left: 1em;
+            }
+        }
+
+        dl ol {
+            .entry-content {
+                max-width: 100%;
+            }
+        }
+
+        p {
+            max-width: 100%;
+        }
+
+        blockquote {
+            width: 100%;
+            max-width: 100%;
+            p {
+                max-width: 100%;
+            }
+        }
+
+        footer { margin-bottom: 50px; margin-top: 50px; }
     }
 }
