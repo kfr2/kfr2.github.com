@@ -38,7 +38,7 @@ This post introduces how I maintain this website and (hopefully) provides the re
 5. If you'd like to serve this site at something other than `your_username.github.com`, update `content/extra/CNAME` to include the desired domain.  See [Setting up a custom domain with Pages](https://help.github.com/articles/setting-up-a-custom-domain-with-pages) for further instructions.
 6. You may examine your changes with the command `make devserver`.  The site should be accessible at [http://localhost:8000](http://localhost:8000)
 7. When satisfied, commit your changes: `git commit -am "A description of your changes."`
-8. Push your source file changes: `git push source master`
+8. Push your source file changes: `git push origin source`
 9. Run `make github` to push your compiled source files to GitHub.  You will likely receive an email notification regarding your page build status.
 
 
@@ -48,7 +48,7 @@ This post introduces how I maintain this website and (hopefully) provides the re
 3. Edit the post in your favorite text editor.
 4. Examine the post in context of your website with `make devserver`
 5. When satisfied with the post, run `git commit -am "Message describing the post"`
-6. Push the source changes with `git push source master`
+6. Push the source changes with `git push origin source`
 7. Push compiled files to your website with `make github`
 
 
