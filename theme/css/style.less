@@ -1,8 +1,8 @@
 @red: #ff0000;
-@black: #000000;
-@white:  #ffffff;
-@light-grey: #eeeeee;
-@med-grey: #999999;
+@black: #000;
+@white:  #fff;
+@light-grey: #eee;
+@med-grey: #666;
 @dark-grey: #4d4d4d;
 @blue: #6f9fcf;
 
@@ -204,17 +204,17 @@ section#posts {
     }
 
     h4 {
-        margin: 20px 0 10px;
+        margin: 16px 0 10px;
         color: @black;
     }
 
     h5 {
-        margin: 20px 0 10px;
+        margin: 14px 0 10px;
         color: @black;
     }
 
     h6 {
-        margin: 20px 0 10px;
+        margin: 12px 0 10px;
         color: @black;
     }
 
@@ -231,10 +231,6 @@ section#posts {
         pre {
             max-width: 517px;
         }
-
-        /*li:before {*/
-            /*content: "\00BB \0020";*/
-        /*}*/
     }
 
     p {
@@ -517,6 +513,12 @@ screen and (device-aspect-ratio: 40/71) {
                     line-height: 40px;
                 }
             }
+
+            a:hover {
+                color: @white;
+                background-color: @accent;
+                border: 2px solid @accent;
+            }
         }
 
         figure#user_logo { margin-left: auto; margin-right: auto; }
@@ -544,31 +546,17 @@ screen and (device-aspect-ratio: 40/71) {
             p { width: auto; }
         }
 
-        dl ol {
-            li {
-                padding: 0 20px;
-                h2.title { margin: 0; }
-                abbr.published { visibility: visible; }
-            }
-
-            li {
-                margin-top: 20px;
-            }
-
-            div.entry-content {
-                width: 100%;
-                margin-bottom: 1em;
-                p { width: 100%; }
-            }
+        pre { 
+            width: 95%;
         }
 
         p.paginator {
             border-top: none;
-            margin-top: 1em;
+            margin-bottom: 4em;
             min-height: 50px;
-            &:after {
-                padding-left: 1em;
-                content: 'This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.';
+
+            a.button_accent {
+                margin: 0px 50px;
             }
         }
 
