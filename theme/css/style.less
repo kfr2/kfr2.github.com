@@ -4,7 +4,7 @@
 @light-grey: #eee;
 @med-grey: #666;
 @dark-grey: #4d4d4d;
-@blue: #6f9fcf;
+@blue: #1c4e89;
 
 @accent: @blue;
 
@@ -32,7 +32,7 @@ body {
 a {
     color: @black;
     text-decoration: none;
-    border-bottom: 1px solid @med-grey;
+    border-bottom: 1px solid #ccc;
     &:link {
         color: @black;
     }
@@ -113,9 +113,6 @@ section#sidebar {
         font-weight: 900;
         font-size: 28px;
         line-height: 38px;
-        a {
-            border: none;
-        }
     }
 
     h2 {
@@ -168,6 +165,12 @@ section#sidebar {
         font-size: 12px;
         font-weight: 300;
         line-height: 15px;
+    }
+
+    h1#user {
+        a {
+            border-bottom: none;
+        }
     }
 }
 
@@ -359,11 +362,11 @@ section#posts {
         max-width: 620px;
         position: relative;
         font-size: 18px;
-        line-height: 25px;
+        line-height: 27px;
         overflow-x: hidden;
         overflow-y: hidden;
 
-        #title{
+        .title{
             margin: 32px 0 0;
             padding: 0;
             color: @black;
@@ -381,61 +384,17 @@ section#posts {
     }
 
     dl#tag_list {
-            margin: 0;
-            padding: 40px 40px 40px 50px;
-            font-size: 14px;
-            line-height: 18px;
-            ul {
-                margin: 0;
-                padding: 0;
-                li {
-                    margin: 0;
-                    padding: 0;
-
-                }
-            }
-        }
-
-    dl {
         margin: 0;
-        padding: 0;
-        font-size: 18px;
-        line-height: 25px;
-        overflow-x: hidden;
-        overflow-y: hidden;
-
-        ol {
+        padding: 40px 40px 40px 50px;
+        font-size: 14px;
+        line-height: 18px;
+        ul {
             margin: 0;
             padding: 0;
-            list-style-type: none;
-
             li {
-                margin: 0 0 0px;
-                padding: 0 0 50px 50px;
-                border-bottom: @light-grey 1px solid;
-            }
-
-            .title {
-                margin: 76px 0 0;
-                padding: 0;
-                color: @black;
-                a {
-                    border: none;
-                }
-            }
-
-            .entry-content {
-                max-width: 600px;
-            }
-
-            abbr {
                 margin: 0;
                 padding: 0;
-                text-transform: uppercase;
-                font-weight: 300px;
-                font-size: 13px;
-                line-height: 16px;
-                visibility: hidden;
+
             }
         }
     }
@@ -593,12 +552,6 @@ screen and (device-aspect-ratio: 40/71) {
 
             ol, ul {
                 margin-left: 1em;
-            }
-        }
-
-        dl ol {
-            .entry-content {
-                max-width: 100%;
             }
         }
 
