@@ -2,6 +2,7 @@
 Email:      kevin [at] magically [dot] us
 GitHub:     https://github.com/kfr2
 Twitter:    @kfr_2
+freenode:   kfr2
 Interests:  games, data, analysis, plain text, simplicity, Python, R,
             beautiful software and code, web apps, exploring, reading,
             hacking, cute animals, tea, sandwiches, free software.
