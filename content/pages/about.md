@@ -25,7 +25,7 @@ Below, in no particular order, is a small list of software that make my life bet
 * [Django](http://djangoproject.com)
 * [Vagrant](http://vagrantup.com)
 * [Mou](http://mouapp.com/)
-* [Sublime Text 2](http://www.sublimetext.com/)
+* [Vim](http://www.vim.org/)
 * [iTerm2](http://www.iterm2.com/)
 * [nvALT](http://brettterpstra.com/project/nvalt/)
 * [Alfred](http://www.alfredapp.com/)
