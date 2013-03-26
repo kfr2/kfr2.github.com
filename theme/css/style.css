@@ -5,6 +5,7 @@ a:hover{color:#1c4e89;outline:0;}
 a:active{color:#1c4e89;outline:0;}
 a:focus{outline:thin dotted;}
 a[rel="license"]{border-bottom:none;}
+dt{margin-top:1em;}
 .clearfix{content:".";display:block;height:0;clear:both;}
 section#sidebar{width:27%;position:fixed;top:0;left:0;bottom:0;right:auto;min-height:700px;z-index:0;}section#sidebar figure{margin:20px 40px;width:100px;height:80px;}
 section#sidebar h1{margin:30px 20px 10px 0px;padding:0 0 0 40px;display:block;font-family:'Proxima Nova','Open Sans',sans-serif;font-weight:900;font-size:28px;line-height:38px;}
