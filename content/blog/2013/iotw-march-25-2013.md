@@ -6,12 +6,7 @@ Author: Kevin Richardson
 Summary: A collection of interesting items for the week of March 25, 2013.
 
 * [A JavaScript Refresh](http://typedarray.org/javascript-refresh/) -- A lengthy overview of JavaScript and some of its idiosyncrasies broken down into easily digestible sections.
-* [Machine Learning in JavaScript: Introduction](http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/) -- Overviews of the following fundamental machine learning algorithms using JavaScript:
-  * k-nearest-neighbor
-  * k-means clustering
-  * Genetic algorithms
-  * Naive Bayes classifier
-  * Neural network
+* [Machine Learning in JavaScript: Introduction](http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/) -- Overviews of the following fundamental machine learning algorithms using JavaScript:  k-nearest-neighbor, k-means clustering, Genetic algorithms, Naive Bayes classifier, Neural network
 * [Intro.js](http://usablica.github.com/intro.js/) -- A small JavaScript library offering "better introductions for websites and features with a step-by-step guide for your projects."
 * [Fun with AngularJS!](http://devgirl.org/2013/03/21/fun-with-angularjs/) -- An overview of AngularJS using [an iTunes Media Search application](http://devgirl.org/files/MediaExplorer/#/) the author created. The author also has a great list of further resources at the end of her post.
 * [Understanding Python's Execution Model](http://www.jeffknupp.com/blog/2013/02/14/drastically-improve-your-python-understanding-pythons-execution-model/) -- In this article, the author helps "[…] you understand what's happening behind the scenes when you do common things like creating a variable or calling a function" in Python.
