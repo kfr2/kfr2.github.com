@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
+from __future__ import unicode_literals
+
+
 SITENAME = u'Kevin Richardson'
 AUTHOR = u'Kevin Richardson'
 TAGLINE = u'explorer & tinkerer'
