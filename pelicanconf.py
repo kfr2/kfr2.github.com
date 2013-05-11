@@ -43,7 +43,8 @@ FILES_TO_COPY = (
 )
 
 # Plugins and their settings.
-PLUGINS = ['pelican.plugins.gravatar', 'pelican.plugins.sitemap']
+PLUGIN_PATH = 'pelican-plugins'
+PLUGINS = ('sitemap', )
 
 SITEMAP = {
     'format': 'xml',
@@ -54,7 +55,7 @@ SITEMAP = {
     },
     'changefreqs': {
         'articles': 'weekly',
-        'indexes': 'daily',
+        'indexes': 'weekly',
         'pages': 'monthly'
     }
 }
