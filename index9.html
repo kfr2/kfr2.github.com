@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" ><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en" ><!--<![endif]-->
+
 <head>
-    <link rel="stylesheet" type="text/css" href="http://magically.us/theme/css/style.css">
-    <link rel="stylesheet" type="text/css" href="http://magically.us/theme/css/pygments.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Kevin Richardson</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://magically.us/theme/css/foundation.min.css" />
+    <link rel="stylesheet" href="http://magically.us/theme/css/pelican-foundation.css" />
+    <script src="http://magically.us/theme/js/vendor/custom.modernizr.js"></script>
+
             <link href="http://magically.us/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Kevin Richardson ATOM Feed" />
                 <link href="http://magically.us/feeds/all.rss" type="application/rss+xml" rel="alternate" title="Kevin Richardson RSS Feed" />
-    
-            <title>Kevin Richardson</title>
-        <meta charset="utf-8" />
     </head>
-<body>
-    <section id="sidebar">
-        <figure id="user_logo">
-            <a href="http://magically.us"><div class="logo"><img src="http://www.gravatar.com/avatar/e6dddb3b7f19b71a97d604b9239dd86e.png" alt="Kevin Richardson: explorer & tinkerer"></div></a>
-        </figure>
 
-        <div class="user_meta">
-            <h1 id="user"><a href="http://magically.us" class="">Kevin Richardson</a></h1>
-            <h2>explorer & tinkerer</h2>
-            <ul>
+<body>
+    <!-- nav bar -->
+    <div class="row">
+        <div class="large-3 columns">
+            <figure id="user_logo">
+                <a href="http://magically.us"><div class="logo"><img src="https://dl.dropboxusercontent.com/u/7030113/www/art-noveau-ornament.png" alt="Kevin Richardson"></div></a>
+            </figure>
+        </div>
+        <div class="large-9 columns panel">
+            <ul class="inline-list right">
                                                             <li><a href="http://magically.us/pages/about.html">about</a></li>
                                             <li><a href="http://magically.us/pages/projects.html">projects</a></li>
                                                                         <li><a href="/archives.html">archives</a></li>
@@ -27,24 +32,14 @@
                                     <li><a href="https://github.com/kfr2/">github</a></li>
                                             </ul>
         </div>
-        <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" title="these writings are licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported license"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
-        </footer>
-    </section>
+    </div>
 
-    <section id="posts">
-            	<header>
-		<h1>Kevin Richardson's blog</h1>
-		<h3>
-							Pax et Bonum
-					</h3>
-	</header>
-
-            <article>
-            <h2 class="title">
-                <a href="http://magically.us/2013-02-03/creating-a-pelican-powered-site-on-github-pages.html" rel="bookmark" title="Permalink to Creating A Pelican-Powered Site on GitHub Pages">Creating A Pelican-Powered Site on GitHub Pages</a>
+    <div class="row">
+        <!-- main content -->
+        <div class="large-9 push-3 columns">
+                        <article>
+            <h2 class="title">Creating A Pelican-Powered Site on GitHub Pages <small><a href="http://magically.us/2013-02-03/creating-a-pelican-powered-site-on-github-pages.html" rel="bookmark" title="Permalink to Creating A Pelican-Powered Site on GitHub Pages">&para;</small></a>
             </h2>
-            <abbr class="published" title="2013-02-03T16:00:00">2013-02-03</abbr>
             <div class="entry-content"><h3>Prologue</h3>
 <p>As stated in <a href="http://magically.us/2013-01-01/hello-world.html">my "Hello World" post</a>, magically.us is created with <a href="http://blog.getpelican.com/">Pelican</a> &mdash; a static website generator &mdash; and hosted on <a href="http://pages.github.com/">GitHub Pages</a>. Benefits of static websites are abundant. This combination allows one to easily update the look and feel of a website as well as its content while maintaining a complete revision history through the <a href="http://git-scm.com/">Git version control system</a>. Static websites are awesome because they allow one to maintain a copy of her content and not worry about the "walled garden" effects of sites like Facebook wherein content can be challenging to export to other platforms. Generators are incredibly useful because they allow one to separate her content from her presentation templates. Because static websites are HTML and related assets, it is incredibly easy to move one's site to other webhosts as is necessary or desired. Another nicety exists in that GitHub Pages also provides the URI <code>http://username.github.com</code> and optionally allows the user to use her own domain. Static website generators (like Pelican) generally allow one to write content in lightweight markup languages (like <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> or <a href="https://en.wikipedia.org/wiki/ReStructuredText">reStructuredText</a>) that is translated to HTML as necessary.</p>
 <p>This post introduces how I maintain this website and (hopefully) provides the reader a starting place for her own experimentations.</p>
@@ -103,14 +98,71 @@
 <p>For reference, see the <a href="http://gist.io/3135754">gist.io's example post</a>. This method of content creation is incredibly rapid. However, it is designed for one-off posts as it does not currently provide a method for viewing multiple posts by the same author. If you like this style of content creation and wish gist.io acted more like a regular blog engine (as well as allowed you to customize its appearance), it may be worth forking <a href="https://github.com/idan/gistio">gist.io's source</a> into something that links to your gists and hosting it on a service like <a href="http://heroku.com">Heroku</a>.</p>
 <h3>Conclusion</h3>
 <p>Hopefully this article has enlightened you to how you may use a static website generator like Pelican to share your content with the world. No matter which generator you use to convert your writings to web pages, they will function similarly and should all serve to assist you in conveying your messages to the world. May your journeys be fruitful and intriguing.</p></div>
+            <p><small>Written on <time datetime="2013-02-03T16:00:00" pubdate>2013-02-03</time>.</small></p>
         </article>
     
-    <p class="paginator">
-						<a href="http://magically.us/index8.html" class="button_accent">&larr;&nbsp;&nbsp;&nbsp;newer</a>
-						<a href="http://magically.us/index10.html" class="button_accent" style="position: absolute; right: 0;">older&nbsp;&nbsp;&nbsp;&rarr;</a>
-	</p>
-    </section>
+        <p class="paginator">
+                                    <a href="http://magically.us/index8.html" class="button small round">&larr;&nbsp;&nbsp;&nbsp;newer</a>
+                                        <a href="http://magically.us/index10.html" class="button small round right">older&nbsp;&nbsp;&nbsp;&rarr;</a>
+            </p>
+        </div>
 
+        <!-- author information/sidebar -->
+        <div class="large-3 pull-9 columns">
+            <h1 class="subheader"><small>Kevin Richardson</small></h1>
+            <p>explorer & tinkerer</p>
+
+                    </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="row">
+                    <div class="large-12 columns">
+                <hr />
+                <p class="right"><small>This work is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA license</a>.</small></p>
+            </div>
+            </footer>
+
+    <script>
+        document.write('<script src=' +
+        ('__proto__' in {} ? 'http://magically.us/theme/js/vendor/zepto' : 'http://magically.us/theme/js/vendor/jquery') +
+        '.js><\/script>')
+    </script>
+    <script src="http://magically.us/theme/js/foundation.min.js"></script>
+  <!--
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  -->
+  
+    <script>
+        $(document).foundation();
+    </script>
         <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
