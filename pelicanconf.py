@@ -18,12 +18,12 @@ DATE_FORMATS = {
 }
 DEFAULT_PAGINATION = 1
 
-THEME = 'themes/pelican-svbtle'
+THEME = 'themes/pelican-foundation'
 
 HEADER_MESSAGE = u'Pax et Bonum'
 
 # sidebar
-LOGO_URL = 'http://www.gravatar.com/avatar/e6dddb3b7f19b71a97d604b9239dd86e.png'
+LOGO_URL = 'https://dl.dropboxusercontent.com/u/7030113/www/art-noveau-ornament.png'
 MENUITEMS = (
     ('archives', '/archives.html'),
     ('feed', '/feeds/all.atom.xml'),
