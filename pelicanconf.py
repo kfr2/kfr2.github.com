@@ -30,7 +30,6 @@ MENUITEMS = (
     ('github', 'https://github.com/kfr2/'),
 )
 DISPLAY_PAGES_ON_MENU = True
-#LINKS = ()
 
 #STATIC_PATHS = ()
 FILES_TO_COPY = (
