@@ -1,9 +1,9 @@
-Title: Items of the Week: March 25, 2013
-Date: 2013-03-31 21:19
-Tags: iotw
-Slug: 2013-03-31/iotw-march-25-2013
-Author: Kevin Richardson
-Summary: A collection of interesting items for the week of March 25, 2013.
+Title: Items of the Week: March 25, 2013  
+Date: 2013-03-31 21:19  
+Tags: iotw  
+Slug: 2013-03-31/iotw-march-25-2013  
+Author: Kevin Richardson  
+Summary: A collection of interesting items for the week of March 25, 2013.  
 
 * [A JavaScript Refresh](http://typedarray.org/javascript-refresh/) -- A lengthy overview of JavaScript and some of its idiosyncrasies broken down into easily digestible sections.
 * [Machine Learning in JavaScript: Introduction](http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/) -- Overviews of the following fundamental machine learning algorithms using JavaScript:  k-nearest-neighbor, k-means clustering, Genetic algorithms, Naive Bayes classifier, Neural network

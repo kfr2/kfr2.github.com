@@ -1,9 +1,9 @@
-Title: Items of the Week: April 15, 2013
-Date: 2013-04-22 20:18
-Tags: iotw
-Slug: 2013-04-22/iotw-april-15-2013
-Author: Kevin Richardson
-Summary: A collection of interesting items for the week of April 15, 2013.
+Title: Items of the Week: April 15, 2013  
+Date: 2013-04-22 20:18  
+Tags: iotw  
+Slug: 2013-04-22/iotw-april-15-2013  
+Author: Kevin Richardson  
+Summary: A collection of interesting items for the week of April 15, 2013.  
 
 * [You should blog even if you have no readers](http://nathanmarz.com/blog/you-should-blog-even-if-you-have-no-readers.html) -- Two main reasons: writing makes you a better reader and writing makes you smarter.
 * [Forecast](http://forecast.io) -- A beautiful and incredibly functional weather web app that is very likely the (best) mobile weather application. The "installation process" for iOS is incredibly easy in Safari: you merely load forecast.io in Safari and follow the instructions.

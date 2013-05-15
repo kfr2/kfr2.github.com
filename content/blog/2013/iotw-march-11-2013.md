@@ -1,9 +1,9 @@
-Title: Items of the Week: March 11, 2013
-Date: 2013-03-17 12:14
-Tags: iotw
-Slug: 2013-03-17/iotw-march-11-2013
-Author: Kevin Richardson
-Summary: A collection of interesting items for the week of March 11, 2013.
+Title: Items of the Week: March 11, 2013  
+Date: 2013-03-17 12:14  
+Tags: iotw  
+Slug: 2013-03-17/iotw-march-11-2013  
+Author: Kevin Richardson  
+Summary: A collection of interesting items for the week of March 11, 2013.  
 
 I've decided to start creating a weekly post describing the websites or other items I've found interesting over the past week. Although the majority of items will likely be websites (as they are often the most easily accessible kind of items), I may mention books, applications, video games, or anything else.
 

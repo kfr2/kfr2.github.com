@@ -1,9 +1,9 @@
-Title: Items of the Week: March 18, 2013
-Date: 2013-03-25 16:21
-Tags: iotw
-Slug: 2013-03-25/iotw-march-18-2013
-Author: Kevin Richardson
-Summary: A collection of interesting items for the week of March 18, 2013.
+Title: Items of the Week: March 18, 2013  
+Date: 2013-03-25 16:21  
+Tags: iotw  
+Slug: 2013-03-25/iotw-march-18-2013  
+Author: Kevin Richardson  
+Summary: A collection of interesting items for the week of March 18, 2013.  
 
 * [AngularJS for jQuery Developers](http://blog.artlogic.com/2013/03/06/angularjs-for-jquery-developers/) -- A very brief introduction to [AngularJS](http://angularjs.org). I particularly enjoyed its Dependency Injection overview.
 * [Superhero.js](http://superherojs.com/) -- "[…] a continously updated list of articles that help explain the syntax of JavaScript, how to organize your projects, how to test your code, and what's on the horizon."
