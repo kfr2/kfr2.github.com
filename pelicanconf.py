@@ -45,7 +45,7 @@ FILES_TO_COPY = (
 
 # Plugins and their settings.
 PLUGIN_PATH = 'pelican-plugins'
-PLUGINS = ('sitemap', )
+PLUGINS = ('sitemap', 'gist', )
 
 SITEMAP = {
     'format': 'xml',
