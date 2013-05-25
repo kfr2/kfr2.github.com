@@ -25,7 +25,6 @@ THEME = 'themes/pelican-foundation'
 LOGO_URL = 'https://dl.dropboxusercontent.com/u/7030113/www/art-noveau-ornament.png'
 MENUITEMS = (
     ('archives', '/archives.html'),
-    ('feed', '/feeds/all.atom.xml'),
     ('github', 'https://github.com/kfr2/'),
 )
 DISPLAY_PAGES_ON_MENU = True
