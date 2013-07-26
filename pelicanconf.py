@@ -25,7 +25,6 @@ THEME = 'themes/pelican-foundation'
 LOGO_URL = 'https://dl.dropboxusercontent.com/u/7030113/www/art-noveau-ornament.png'
 MENUITEMS = (
     ('archives', '/archives.html'),
-    ('github', 'https://github.com/kfr2/'),
 )
 DISPLAY_PAGES_ON_MENU = True
 FOOTER_MESSAGE = u'This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY-SA</a>.'

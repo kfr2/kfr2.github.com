@@ -4,4 +4,4 @@ Slug: projects
 Author: Kevin Richardson  
 Summary:  A list of Kevin Richardson's projects.  
 
-A more formal list of my projects is forthcoming.  In the meantime, you may be interested in browsing my [GitHub repositories](https://github.com/kfr2).
+A more formal list of my projects is forthcoming.  In the meantime, you may be interested in browsing my [GitHub account](https://github.com/kfr2).
