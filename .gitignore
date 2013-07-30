@@ -2,4 +2,5 @@
 *.pyc
 output
 pelican-plugins
+setup_env.sh
 themes

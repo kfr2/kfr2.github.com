@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 from __future__ import unicode_literals
+from os import environ
 
 
 SITENAME = u'Kevin Richardson'
@@ -43,7 +44,12 @@ FILES_TO_COPY = (
 
 # Plugins and their settings.
 PLUGIN_PATH = 'pelican-plugins'
-PLUGINS = ('sitemap', 'gist', )
+PLUGINS = ('sitemap', 'gist', 'gist_comments')
+
+GITHUB_USERNAME = 'kfr2'
+GITHUB_AUTH_TOKEN = environ.get('GITHUB_AUTH_TOKEN')
+if GITHUB_AUTH_TOKEN is None:
+    raise NotImplementedError("You should define GITHUB_AUTH_TOKEN in your OS's environment.")
 
 SITEMAP = {
     'format': 'xml',
@@ -58,3 +64,4 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
+

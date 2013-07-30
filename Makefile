@@ -1,4 +1,4 @@
-PELICAN=pelican
+PELICAN=. setup_env.sh && pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
