@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Kevin Richardson</title>
+    <title>Pelican-Gist-Comments Plugin | Kevin Richardson</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://magically.us/theme/css/foundation.min.css" />
     <link rel="stylesheet" href="http://magically.us/theme/css/pelican-foundation.css" />
@@ -42,23 +42,25 @@
 
         <!-- main content -->
         <div class="large-9 columns">
-                        <article>
-            <h2 class="title">Pelican-Gist-Comments Plugin <small><a href="http://magically.us/2013-07-31/pelican-gist-comments-plugin.html" rel="bookmark" title="Permalink to Pelican-Gist-Comments Plugin">&para;</small></a>
-            </h2>
-            <div class="entry-content"><p>The other day I created <a href="https://github.com/kfr2/pelican-gist-comments">Pelican-Gist-Comments</a>, a plugin for <a href="http://getpelican.com">Pelican</a> that allows a Pelican site owner to utilize Gists as a comment engine for his blog posts. Essentially, a Gist will be created for an article (based on its slug) whenever it is rendered into HTML by Pelican. The ID of the Gist will then be stored in <code>gist_comment_ids.json</code> and added to the article's metadata as 'gist_id'. Afterwards, the ID can be accessed in a template via <code>{{ article.gist_id }}</code>. For more information, see <a href="https://github.com/kfr2/pelican-foundation/blob/master/templates/article.html#L19">this example template</a>.</p>
+                <article>
+        <h2 class="title">Pelican-Gist-Comments Plugin <small><a href="http://magically.us/2013-07-31/pelican-gist-comments-plugin.html" rel="bookmark" title="Permalink to Pelican-Gist-Comments Plugin">&para;</small></a></h2>
+        <p>The other day I created <a href="https://github.com/kfr2/pelican-gist-comments">Pelican-Gist-Comments</a>, a plugin for <a href="http://getpelican.com">Pelican</a> that allows a Pelican site owner to utilize Gists as a comment engine for his blog posts. Essentially, a Gist will be created for an article (based on its slug) whenever it is rendered into HTML by Pelican. The ID of the Gist will then be stored in <code>gist_comment_ids.json</code> and added to the article's metadata as 'gist_id'. Afterwards, the ID can be accessed in a template via <code>{{ article.gist_id }}</code>. For more information, see <a href="https://github.com/kfr2/pelican-foundation/blob/master/templates/article.html#L19">this example template</a>.</p>
 <p>However, the notion behind this plugin is not without its faults. At this time, <a href="https://gist.github.com/maxogden/3422419">Gists do not notify their owner</a> whenever a user posts a comment. However, it may be possible to circumvent this limitation by writing a small program that occasionally checks the comments on your Gists and alerts you when their numbers change. In addition, the user must have a GitHub account to post a comment (but I suppose this may help reduce spam).</p>
-<p>I don't believe Pelican-Gist-Comments is a finished product by any means but it was a very fun plugin to hack together. Nonetheless, I hope you find it useful. If you have any thoughts or suggestions, please submit <a href="https://github.com/kfr2/pelican-gist-comments/issues">an issue</a> or <a href="https://github.com/kfr2/pelican-gist-comments/pulls">pull request</a>.</p></div>
-            <p>
-                <small>
-                    Written on <time datetime="2013-07-31T09:05:00" pubdate>2013-07-31</time>.
-                                            <a href="http://gist.github.com/kfr2/6121786" target="_blank" class="button tiny success">view and add comments</a>
-                                    </small>
-            </p>
-        </article>
+<p>I don't believe Pelican-Gist-Comments is a finished product by any means but it was a very fun plugin to hack together. Nonetheless, I hope you find it useful. If you have any thoughts or suggestions, please submit <a href="https://github.com/kfr2/pelican-gist-comments/issues">an issue</a> or <a href="https://github.com/kfr2/pelican-gist-comments/pulls">pull request</a>.</p>
+        <p><small>
+            Written on <time datetime="2013-07-31T09:05:00" pubdate>2013-07-31</time>.&nbsp;
+                            Categorized under:  <a href="http://magically.us/category/2013.html">2013</a>.&nbsp;
+                                        Tagged as:  
+                <a href="http://magically.us/tag/meta.html">meta</a>,&nbsp;<a href="http://magically.us/tag/github.html">github</a>,&nbsp;<a href="http://magically.us/tag/writing.html">writing</a>,&nbsp;<a href="http://magically.us/tag/python.html">python</a>.
+                                        <a href="http://gist.github.com/kfr2/6121786" target="_blank" class="button tiny success">view and add comments</a>
+                    </small></p>
+    </article>
+
     
-        <p class="paginator">
-                            <a href="http://magically.us/index2.html" class="button small round right">older&nbsp;&nbsp;&nbsp;&rarr;</a>
-            </p>
+    <footer>
+        <a href="http://magically.us/" class="button small round">&larr;&nbsp;&nbsp;&nbsp;Read more</a>
+    </footer>
+
         </div>
     </div>
 
