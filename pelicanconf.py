@@ -44,7 +44,7 @@ FILES_TO_COPY = (
 
 # Plugins and their settings.
 PLUGIN_PATH = 'pelican-plugins'
-PLUGINS = ('sitemap', 'gist', 'gist_comments')
+PLUGINS = ['sitemap', 'gist']
 
 GITHUB_USERNAME = 'kfr2'
 GITHUB_AUTH_TOKEN = environ.get('GITHUB_AUTH_TOKEN')

@@ -9,6 +9,8 @@ from pelicanconf import *
 SITEURL = 'http://magically.us'
 FEED_DOMAIN = SITEURL
 
+PLUGINS.append('gist_comments')
+
 DELETE_OUTPUT_DIRECTORY = True
 
 # Uncomment following line for absolute URLs in production:
