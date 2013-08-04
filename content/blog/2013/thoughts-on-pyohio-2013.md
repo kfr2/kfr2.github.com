@@ -13,6 +13,3 @@ PyOhio's attendees had a very wide blend of experience levels and I believe the 
 
 ## The location
 I found both Ohio State University and Columbus to be beautiful places. Furthermore, they were laid out sensible enough so as to not be difficult in which to navigate. Food in the area was delicious and not too expensive. In that regard, I would highly recommend a trip to [Brazenhead](http://www.hdrestaurants.com/brazenhead/5thavenue/), a phenomenal pub with great burgers. Furthermore, the street on which the conference is located hosts a variety of restaurants that are good for both lunch as well as a relaxing dinner with newly-met friends. Although we didn't spend too much time exploring the city itself, we did get to see the [the world's largest gavel](http://farm3.staticflickr.com/2732/4490289156_7102fc868f_o.jpg) as well as portion of a concert occurring on the other side of a river. Whenever I am next in Columbus, I would certainly like to further explore the city.
-
-## Thoughts on individual sessions
-In the coming days, I will write a series of posts describing my thoughts on individual presentations or topics. Each post will be [tagged with "pyohio"](/tag/pyohio.html).
