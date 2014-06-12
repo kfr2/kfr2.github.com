@@ -29,7 +29,7 @@ MENUITEMS = (
 )
 DISPLAY_PAGES_ON_MENU = True
 FOOTER_MESSAGE = u'This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY-SA</a>.'
-TWITTER_USERNAME = u'kfr_2'
+TWITTER_USERNAME = u'kfredrichardson'
 
 
 #STATIC_PATHS = ()
