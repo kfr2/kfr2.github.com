@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://magically.us/index.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2014-06-11T20:56:04-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/archives.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2014-06-11T20:56:04-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tags.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2014-06-11T20:56:04-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/categories.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2014-06-11T20:56:04-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -201,112 +201,112 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://magically.us/category/2013.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-08-18T21:13:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/github.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-07-31T09:05:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/conferences.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-08-18T21:13:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/python.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-07-31T09:05:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/ruby.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-08-18T21:13:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/iotw.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-07-07T19:49:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/writing.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-07-31T09:05:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/django-cms.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-05-28T21:44:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/meta.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-07-31T09:05:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/pyohio.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-07-29T07:31:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/scrc.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-08-18T21:13:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/startups.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-07-22T19:34:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/django.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-05-28T21:44:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/employment.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-07-22T19:34:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/tag/blogging.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-02-03T16:00:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://magically.us/author/kevin-richardson.html</loc>
-<lastmod>2013-08-18T21:22:27-00:00</lastmod>
+<lastmod>2013-08-18T21:13:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
