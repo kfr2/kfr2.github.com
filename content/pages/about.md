@@ -16,18 +16,3 @@ Magically.us contains my [notes](http://dl.dropbox.com/u/7030113/notes/index.htm
 ### Contact
 Thank you very much for perusing my site.  You can find my contact information (as well as some of my interests) in [my humans.txt file](/humans.txt).
 
-
-### Neat Software
-Below, in no particular order, is a small list of software that make my life better:
-
-* [Python](http://python.org)
-* [R](http://cran.r-project.org/)
-* [Django](http://djangoproject.com)
-* [Vagrant](http://vagrantup.com)
-* [Mou](http://mouapp.com/)
-* [Vim](http://www.vim.org/)
-* [iTerm2](http://www.iterm2.com/)
-* [nvALT](http://brettterpstra.com/project/nvalt/)
-* [Alfred](http://www.alfredapp.com/)
-* [Kindle Paperwhite](http://www.amazon.com/gp/product/B008GEKXUO/)
-* [Readability](https://www.readability.com/)
