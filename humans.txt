@@ -1,9 +1,9 @@
 # Kevin Richardson
 Email:      kevin [at] magically [dot] us
 GitHub:     https://github.com/kfr2
-Twitter:    @kfr_2
+Twitter:    @kfredrichardson
 freenode:   kfr2
-Interests:  games, data, analysis, plain text, simplicity, Python, R,
+Interests:  games, data, analysis, plain text, simplicity, Python,
             beautiful software and code, web apps, exploring, reading,
             hacking, cute animals, tea, sandwiches, free software.
             Life, the Universe, and Everything
