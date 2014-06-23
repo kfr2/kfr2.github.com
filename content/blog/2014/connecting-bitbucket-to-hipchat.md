@@ -1,0 +1,14 @@
+Title: Connecting Bitbucket to HipChat  
+Date: 2014-06-23 17:46  
+Tags: bitbucket, chatops, hipchat  
+Slug: 2014-06-23/connecting-bitbucket-to-hipchat  
+Author: Kevin Richardson  
+Summary: An introduction to a Node.js service connecting Bitbucket pull requests to HipChat.  
+
+A few weeks ago I attended [devopsdays Pittsburgh](http://devopsdays.org/events/2014-pittsburgh/), a local edition of "the conference that brings development and operations together." This conference was well orchestrated and provided incredible value in both knowledge development and networking opportunities. In particular, I found the "[How is ChatOps formed?](http://devopsdays.org/events/2014-pittsburgh/proposals/How%20is%20ChatOps%20Formed/)" presentation by Carol Nichols highly enlightening. The end of the first day of the conference found me setting up a HipChat group as well as a Hubot instance for my company. Everyone seems to really like these tools and it feels as though the team members are in better sync with one another.
+
+I greatly enjoy how a variety of services can broadcast messages into HipChat rooms as it is useful to see notifications as they become available. For instance, Bitbucket posts messages whenever someone commits to our repositories and [Codeship](https://codeship.io/) posts messages detailing when builds start and eventually succeed or fail. It is great fun to have Hubot pick up on the messages and respond appropriately. The following script responds with a Final Fantasy victory image whenever a build succeeds.
+
+[[ gist kfr2:35fc387dd31702d2642c ]]
+
+My team's development occurs in feature or bug fix branches and must be reviewed by someone other Thadn the author before the changes are merged into stable branches. We use Bitbucket's pull requests to facilitate this process. I wanted pull request notifications to be broadcasted into our HipChat room but the [HipChat Bitbucket Connector](https://marketplace.atlassian.com/plugins/atlassian-labs-hipchat-bitbucket) unfortunately doesn't seem to presently support them. Not one to be defeated, I wrote a small node.js application to [connect Bitbucket pull requests to notification services](https://github.com/kfr2/bitbucket-pull-request-connector). Although HipChat is presently the only supported notification service, it should be trivial to connect another service like CampFire or Slack. See the repository's [README](https://github.com/kfr2/bitbucket-pull-request-connector/blob/master/README.md) for instructions on running the application on Heroku and [connectors/hipchat.js](https://github.com/kfr2/bitbucket-pull-request-connector/blob/master/connectors/hipchat.js) to formulate an idea of how you'd integrate with your preferred service. Please feel free to [contact me](/humans.txt) if you'd like assistance.
