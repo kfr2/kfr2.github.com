@@ -1,4 +1,4 @@
-Title: about  
+Title: about me  
 Date: 2012-12-07 18:00  
 Slug: about  
 Author: Kevin Richardson  
@@ -10,7 +10,7 @@ One of my goals is to create beautiful software that assists users in living a b
 Currently, I work predominantly with the [Django web framework](http://djangoproject.com) and the [Python](http://www.python.org/) programming language but have experience with a variety of languages and frameworks.  Indeed, I greatly enjoy learning new development tools and paradigms as, ultimately, I want to create wonderful experiences for users and will learn whichever languages or tools are neccessary.  Moreover, I am very interested in data science and analytics.  To this end, I am examining how I can use tools like [R](http://cran.r-project.org/) and [Pandas](http://pandas.pydata.org/) to better understand life.
 
 ### This site
-Magically.us contains my [notes](http://dl.dropbox.com/u/7030113/notes/index.htm), experimentations, and [projects](/pages/projects.html) in various areas.  The writings are released under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/) and the software under the [MIT License](http://opensource.org/licenses/MIT), so please feel free to use them to whichever end you see fit.  I urge you to consider releasing your own software or other creations under similar licenses so others can benefit from your accomplishments and the world can be a better place.
+Magically.us contains my [notes](http://dl.dropbox.com/u/7030113/notes/index.htm), experimentations, and [projects](/pages/projects.html) in various areas.  The writings are released under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/) and most of the software under permissive licenses like the [MIT License](http://opensource.org/licenses/MIT), so please feel free to use them to whichever end you see fit.  I urge you to consider releasing your own software or other creations under similar licenses so others can benefit from your accomplishments and the world can be a better place.
 
 
 ### Contact

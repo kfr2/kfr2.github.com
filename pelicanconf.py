@@ -10,7 +10,6 @@ AUTHOR = u'Kevin Richardson'
 TAGLINE = u'explorer & tinkerer'
 SITEURL = 'http://localhost:8000'
 FEED_DOMAIN = SITEURL
-FEED_ATOM = 'feeds/all.atom.xml'
 FEED_RSS = 'feeds/all.rss'
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = u'en'
@@ -23,11 +22,10 @@ THEME = 'themes/pelican-foundation'
 
 
 # display items
-LOGO_URL = 'https://dl.dropboxusercontent.com/u/7030113/www/art-noveau-ornament.png'
 MENUITEMS = (
-    ('archives', '/archives.html'),
+    ('about me', '/pages/about.html', 'fa fa-user'),
+    ('all articles', '/archives.html', 'fa fa-list'),
 )
-DISPLAY_PAGES_ON_MENU = True
 FOOTER_MESSAGE = u'This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY-SA</a>.'
 TWITTER_USERNAME = u'kfredrichardson'
 
