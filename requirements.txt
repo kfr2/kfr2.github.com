@@ -1,4 +1,4 @@
-Jinja2==2.6
+Jinja2==2.11.3
 Markdown==2.2.1
 Pygments==1.5
 Unidecode==0.04.10
